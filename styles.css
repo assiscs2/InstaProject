@@ -1,0 +1,209 @@
+ :root {
+    background: black;
+    color: white;
+    font-weight: 400;
+    font-family: Roboto;
+
+ }
+
+main button {
+    max-height: 2.4rem;
+    background-color: black;
+    color: white;
+    border: none;
+    
+    font-family: Roboto;
+    font-size: 0.6rem;
+    font-weight: 100;
+}
+
+main {
+  font-size: 1.2rem; 
+  overflow: hidden;
+}
+
+.top-bar {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 2.8rem;
+ 
+    font-size: 1.3rem;
+}
+
+.top-bar h1 {
+    font-family: Grand Hotel;
+    font-weight: 100;
+
+    padding-left: 0.1rem;
+
+}
+
+
+.stories-bar {
+    display: flex;
+    overflow-x: auto;
+
+    font-size: 0.8rem;
+    font-weight: 300;
+
+    padding-left: 0.2rem;
+}
+
+.stories-bar div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0.5rem 0 0;
+
+    width: 100vw;
+    margin-top: 0.6rem;
+
+}
+
+
+.stories-bar img {
+    max-height: 3.8rem;
+    border-radius: 50%;
+    align-items: center;
+    margin-bottom: 0.2rem;
+    padding: 3px;
+
+    border-width: 2px;
+    background-color: black;
+
+    background: linear-gradient(30deg, #ff7300 20%, #ff002b 80%);
+}
+
+main .posts {
+    margin-top: 1.2rem;
+}
+
+.post-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.post-head div {
+    display: flex;
+    align-items: center;
+    padding-bottom: 0.3rem;
+
+}
+
+.post-head small {
+    font-weight: 300;
+}
+
+#ph-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 0.8rem;
+
+}
+
+#ph-text span {
+    font-weight: 400;
+}
+
+.post-head img {
+    height: 1.8rem;
+    border-radius: 50%;
+    align-items: center;
+
+    margin-right: 0.3rem;
+
+}
+
+.post-photo {
+    width: 100vw;
+    max-width: 900px;
+
+}
+
+.post-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.post-footer button {
+    font-weight: 300;
+}
+
+.post-info {
+    margin-top: 0.8rem;
+
+    font-weight: 300;
+    font-size: 0.7rem;
+
+    padding-bottom: 0;
+}
+
+.user-comment {
+    font-weight: 300;
+    font-size: 0.7rem;
+
+    padding-bottom: 0;
+}
+
+#username {
+    font-weight: 500;
+    font-size: 0.7rem;
+}
+
+.post-your-comment {
+    display: flex;
+    padding-top: 0.5rem;
+
+    align-items: center;
+}
+
+.post-your-comment img {
+    height: 1.8rem;
+    border-radius: 50%;
+    align-items: center;
+
+    padding-right: 0.6;
+}
+
+.post-your-comment textarea {
+    background: black;
+    border: none; 
+
+    font-family: Roboto;
+    font-size: 0.6rem;
+    width: 80vw;
+    height: 1.2rem;
+    font-weight: 300;
+
+    align-items: center;
+    padding-top: 0.5rem;
+}
+
+#post-date small{
+    font-size: 0.6rem;
+    font-weight: 100;
+}
+
+#post-date button{
+    font-size: 0.6rem;
+    font-weight: 400;
+}
+
+.bottom-bar {
+    width: clamp(24rem, 25vw, 44rem);
+    padding: clamp(4rem, 5vw, 8rem);
+    
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: space-between;
+
+}
