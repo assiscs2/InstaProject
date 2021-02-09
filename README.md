@@ -1,6 +1,6 @@
 # InstaProjetct v1.01
 
-Um clone de layout visual do Instagram com HTML e CSS.
+Um clone visual do Instagram com HTML e CSS.
 
 Projeto até o momento rodando com a extensão Live Server e sem funcionalidades JavaScript.
 
