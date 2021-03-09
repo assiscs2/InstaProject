@@ -7,11 +7,25 @@
 
   margin: 0;
   padding: 0;
+
+
+}
+
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  height: 0;
+  background: transparent;
+
+}
+
+textarea {
+  outline: none;
 }
 
 button {
   outline: none;
   cursor: pointer;
+
 }
 
 body button {
@@ -23,6 +37,9 @@ body button {
   font-family: Roboto;
   font-size: 0.6rem;
   font-weight: 100;
+
+  background: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
