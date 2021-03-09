@@ -16,11 +16,12 @@
   </head>
 
   <main>
+    <div id="dummy-top-bar"></div>
     <aside class="top-bar">
       <div>
         <header>Instagram</header>
       </div>
-      <div><button>+</button> <button>Like</button> <button>Share</button></div>
+      <div id="top-buttons"><button>+</button> <button>Like</button> <button>Share</button></div>
     </aside>
     <body>
       <div class="stories-bar">
@@ -131,7 +132,7 @@
           </div>
           <img
             class="post-photo"
-            src="https://picsum.photos/450"
+            src="https://picsum.photos/450?random=2"
             alt="Conteudo do post"
           />
 
@@ -145,7 +146,6 @@
           </div>
           <div class="post-info">
             <span>Curtido por 10 pessoas</span>
-            <p></p>
             <div class="post-user-comment">
               <span id="username">User 1</span>
               <span>Comment 1</span> <button>more</button>
@@ -164,7 +164,7 @@
               <span>Comment 3</span> <button>Like Comment</button>
             </div>
           </div>
-
+          <!-- ÁREA DE POSTAR COMENTÁRIOS
           <div class="post-your-comment">
             <button class="user-profile-icon">
               <img
@@ -180,12 +180,92 @@
               placeholder="    Adicione um comentário...                                      'EMOTES'"
             ></textarea>
           </div>
+
+          -->
           <div id="post-date">
             <small>Data da postagem </small> <button>Ver tradução</button>
           </div>
         </div>
       </div>
 
+      <div class="posts">
+        <div class="post-content">
+          <div class="post-head">
+            <div id="ph-img-text">
+              <button class="post-head-icon">
+                <img
+                  class="user-profile"
+                  src="https://picsum.photos/70?random=2"
+                  alt="Imagem de perfil"
+                />
+              </button>
+              <div id="ph-text">
+                <span>User 1</span>
+                <small>Pripyat</small>
+              </div>
+            </div>
+            <button class="post-option">opções</button>
+          </div>
+          <img
+            class="post-photo"
+            src="https://picsum.photos/450?random=1"
+            alt="Conteudo do post"
+          />
+
+          <div class="post-footer">
+            <div class="post-options">
+              <button>Like</button>
+              <button>Comment</button>
+              <button>Share</button>
+            </div>
+            <button>Save on collection</button>
+          </div>
+          <div class="post-info">
+            <span>Curtido por 10 pessoas</span>
+            <div class="post-user-comment">
+              <span id="username">User 1</span>
+              <span>Comment 1</span> <button>more</button>
+            </div>
+          </div>
+
+          <div class="post-comments">
+            <button class="open-all-comments">Ver todos os comentários</button>
+
+            <div class="user-comment">
+              <span id="username">User 2</span>
+              <span>Comment 2</span> <button>Like Comment</button>
+            </div>
+            <div class="user-comment">
+              <span id="username">User 3</span>
+              <span>Comment 3</span> <button>Like Comment</button>
+            </div>
+          </div>
+          <!-- ÁREA DE POSTAR COMENTÁRIOS
+          <div class="post-your-comment">
+            <button class="user-profile-icon">
+              <img
+                src="https://picsum.photos/70?random=1"
+                alt="Imagem de perfil"
+              />
+            </button>
+            <textarea
+              name="write-comment"
+              id=""
+              cols="60"
+              rows="1"
+              placeholder="    Adicione um comentário...                                      'EMOTES'"
+            ></textarea>
+          </div>
+
+          -->
+
+          <div id="post-date">
+            <small>Data da postagem </small> <button>Ver tradução</button>
+          </div>
+        </div>
+      </div>
+
+    <div id="dummy-bottom-bar"></div>  
     <aside class="bottom-bar">
       <button>Home</button>
       <button>Search</button>
