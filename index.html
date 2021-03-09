@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
@@ -17,76 +18,95 @@
   <main>
     <aside class="top-bar">
       <div>
-        <h1>Instagram</h1>
+        <header>Instagram</header>
       </div>
       <div><button>+</button> <button>Like</button> <button>Share</button></div>
     </aside>
     <body>
       <div class="stories-bar">
         <div class="your-user">
-          <img
-            class="user-profile"
-            src="https://picsum.photos/70?random=1"
-            alt="Imagem de perfil"
-          />
+          <button id="stories-button">
+            <img
+              class="user-profile"
+              src="https://picsum.photos/70?random=1"
+              alt="Imagem de perfil"
+            />
+          </button>
           <small>User 1</small>
         </div>
 
         <div>
-          <img
-            class="user-profile"
-            src="https://picsum.photos/70?random=2"
-            alt="Imagem de perfil"
-          />
-          <small>User 2</small>
-        </div>
-        <div>
-          <img
-            class="user-profile"
-            src="https://picsum.photos/70?random=3"
-            alt="Imagem de perfil"
-          />
+          <button id="stories-button">
+            <img
+              class="user-profile"
+              src="https://picsum.photos/70?random=2"
+              alt="Imagem de perfil"
+            />
+            <a href="https://google.com"></a>
+          </button>
+
           <small>User 2</small>
         </div>
 
         <div>
-          <img
-            class="user-profile"
-            src="https://picsum.photos/70?random=4"
-            alt="Imagem de perfil"
-          />
+          <button id="stories-button">
+            <img
+              class="user-profile"
+              src="https://picsum.photos/70?random=3"
+              alt="Imagem de perfil"
+            />
+          </button>
+          <small>User 2</small>
+        </div>
+
+        <div>
+          <button id="stories-button">
+            <img
+              class="user-profile"
+              src="https://picsum.photos/70?random=4"
+              alt="Imagem de perfil"
+            />
+          </button>
           <small>User 3</small>
         </div>
         <div>
-          <img
-            class="user-profile"
-            src="https://picsum.photos/70?random=5"
-            alt="Imagem de perfil"
-          />
+          <button id="stories-button">
+            <img
+              class="user-profile"
+              src="https://picsum.photos/70?random=5"
+              alt="Imagem de perfil"
+            />
+          </button>
           <small>User 4</small>
         </div>
         <div>
-          <img
-            class="user-profile"
-            src="https://picsum.photos/70?random=6"
-            alt="Imagem de perfil"
-          />
+          <button id="stories-button">
+            <img
+              class="user-profile"
+              src="https://picsum.photos/70?random=6"
+              alt="Imagem de perfil"
+            />
+          </button>
           <small>User 5</small>
         </div>
         <div>
-          <img
-            class="user-profile"
-            src="https://picsum.photos/70?random=7"
-            alt="Imagem de perfil"
-          />
+          <button id="stories-button">
+            <img
+              class="user-profile"
+              src="https://picsum.photos/70?random=7"
+              alt="Imagem de perfil"
+            />
+          </button>
           <small>User 6</small>
         </div>
         <div>
-          <img
-            class="user-profile"
-            src="https://picsum.photos/70?random=8"
-            alt="Imagem de perfil"
-          />
+          <button id="stories-button">
+            <img
+              class="user-profile"
+              src="https://picsum.photos/70?random=8"
+              alt="Imagem de perfil"
+            />
+          </button>
           <small>User 7</small>
         </div>
       </div>
@@ -95,11 +115,13 @@
         <div class="post-content">
           <div class="post-head">
             <div id="ph-img-text">
-              <img
-                class="user-profile"
-                src="https://picsum.photos/70?random=1"
-                alt="Imagem de perfil"
-              />
+              <button class="post-head-icon">
+                <img
+                  class="user-profile"
+                  src="https://picsum.photos/70?random=1"
+                  alt="Imagem de perfil"
+                />
+              </button>
               <div id="ph-text">
                 <span>User 1</span>
                 <small>Pripyat</small>
@@ -144,9 +166,8 @@
           </div>
 
           <div class="post-your-comment">
-            <button>
+            <button class="user-profile-icon">
               <img
-                class="user-profile"
                 src="https://picsum.photos/70?random=1"
                 alt="Imagem de perfil"
               />
@@ -156,7 +177,7 @@
               id=""
               cols="60"
               rows="1"
-              placeholder="    Adicione um comentário...                                  'EMOTES'"
+              placeholder="    Adicione um comentário...                                      'EMOTES'"
             ></textarea>
           </div>
           <div id="post-date">

@@ -2,11 +2,17 @@
   font-weight: 400;
   font-family: Roboto;
 
+  width: 100vw;
   /*  background: black; */
 }
 
+button {
+  outline: none;
+  cursor: pointer;
+}
+
 body button {
-  max-height: 2.4rem;
+  /*max-height: 2.4rem;*/
   background-color: black;
   color: white;
   border: none;
@@ -32,50 +38,70 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-height: 2.8rem;
 
   font-size: 1.3rem;
 }
 
-.top-bar h1 {
+.top-bar header {
   font-family: Grand Hotel;
   font-weight: 100;
 
   padding-left: 0.5rem;
+
+  font-size: 2rem;
+
+  margin-bottom: 0.4rem;
 }
 
 .stories-bar {
   display: flex;
   overflow-x: auto;
 
+  height: 5.5rem;
+
   font-size: 0.8rem;
   font-weight: 300;
 
-  /* padding-left: 0.5rem; */
   width: 100vw;
 }
 
 .stories-bar div {
+  margin-top: 1.4rem;
+  margin: 0;
+  /* margin-left: 0.6rem; */
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 0.5rem 0 0;
-  margin-left: 0.5rem;
+
+  justify-content: space-between;
 
   width: 100vw;
-  margin-top: 0.6rem;
 }
 
 .stories-bar img {
   max-height: 3.8rem;
+
   border-radius: 50%;
   align-items: center;
-  margin-bottom: 0.2rem;
 
-  margin-right: -0.3rem;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #000000;
+}
 
-  padding: 3px;
+.stories-bar #stories-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 2px;
+
+  border-radius: 50%;
+
   background: linear-gradient(30deg, #ff7300 20%, #ff002b 80%);
+
+  margin-left: 0.5rem;
 }
 
 .stories-bar small {
@@ -93,7 +119,7 @@ main .posts {
 
   border-style: solid;
   border-width: 1px;
-  border-color: #22222252;
+  border-color: #ffffff17;
   height: 3.2rem;
 
   margin-top: -0.8rem;
@@ -127,13 +153,27 @@ main .posts {
   border-radius: 50%;
   align-items: center;
 
+  /*
   margin-left: 0.4rem;
   margin-right: 0.4rem;
 
   margin-top: 0.3rem;
+*/
+  border: solid 2px black;
+}
+
+.post-head-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   padding: 2px;
   background: linear-gradient(30deg, #ff7300 20%, #ff002b 80%);
+
+  border-radius: 50%;
+
+  margin-left: 0.4rem;
+  margin-right: 0.5rem;
 }
 
 .post-photo {
@@ -176,17 +216,30 @@ main .posts {
 }
 
 .post-your-comment {
-  display: flex;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.user-profile-icon {
+  display: flex;
+  justify-content: center;
   align-items: center;
 
   margin-top: 0.4rem;
+
+  padding: 2px;
+  background: linear-gradient(30deg, #ff7300 20%, #ff002b 80%);
+
+  border-radius: 50%;
+
+  margin-left: 0.4rem;
 }
 
 .post-your-comment img {
+  border: solid 2px black;
   height: 1.8rem;
   border-radius: 50%;
-  align-items: center;
 }
 
 .post-your-comment textarea {
@@ -200,7 +253,7 @@ main .posts {
   font-weight: 300;
 
   align-items: center;
-  padding-top: 0.5rem;
+  padding-top: 0.7rem;
 }
 
 #post-date small {
@@ -228,6 +281,11 @@ main .posts {
 
   body {
     background: white;
+  }
+
+  header {
+    color: black;
+    font-size: 2rem;
   }
 
   body button,
