@@ -1,4 +1,4 @@
-# InstaProject v1.04
+# InstaProject v1.05
 
 Um clone visual do Instagram com HTML e CSS.
 
